@@ -1,0 +1,39 @@
+<ion-view class="legal-view">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-nav-title>
+    <span>Lapor</span>
+  </ion-nav-title>
+  <ion-content>
+      <div class="report-content">
+          <div class="pelanggaran">
+              <ion-checkbox ng-model="karcis">Tidak Ada Karcis</ion-checkbox>
+              <ion-checkbox ng-model="seragam">Petugas Tidak Berseragam</ion-checkbox>
+              <ion-checkbox ng-model="tarif">Tarif Tidak Sesuai</ion-checkbox>
+              <ion-checkbox ng-model="lain">Lain-lain</ion-checkbox>
+          </div>
+
+          <label class="item item-input deskripsi legal">
+              <textarea placeholder="Deskripsi tambahan"></textarea>
+          </label>
+
+          <div class="submit-button">
+              <button class="button button-block button-positive" ng-click="done()">
+                  Submit
+              </button>
+          </div>
+      </div>
+  </ion-content>
+  <ion-tabs>
+      <!-- <ion&#45;tab title="Lapor Parkir Ilegal" href="#/ilegal"> -->
+      <!--     <!&#45;&#45; Tab 1 content &#45;&#45;> -->
+      <!--     <ion&#45;nav&#45;view name="lapor&#45;ilegal"></ion&#45;nav&#45;view> -->
+      <!-- </ion&#45;tab> -->
+
+      <ion-tab title="Lapor Parkir Legal" ui-sref="app.legal">
+          <!-- Tab 2 content -->
+          <!-- <ion&#45;nav&#45;view name="lapor&#45;legal"></ion&#45;nav&#45;view> -->
+      </ion-tab>
+  </ion-tabs>
+</ion-view>

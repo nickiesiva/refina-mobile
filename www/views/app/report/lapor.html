@@ -1,0 +1,26 @@
+<ion-view class="report-view">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-nav-title>
+    <span>Report</span>
+  </ion-nav-title>
+  <!-- <ion&#45;content> -->
+  <!--     <div style="width:300px;height:auto;"> -->
+  <!--         <button class="button button&#45;icon ion&#45;camera" -->
+  <!--                 ng&#45;click="getPicture()"> -->
+  <!--         </button> -->
+  <!--     </div> -->
+  <!-- </ion&#45;content> -->
+  <ion-tabs>
+      <ion-tab title="Lapor Parkir Ilegal" href="#/tabs/ilegal">
+          <!-- Tab 1 content -->
+          <ion-nav-view name="ilegal"></ion-nav-view>
+      </ion-tab>
+
+      <ion-tab title="Lapor Parkir Legal" href="#/tabs/legal">
+          <!-- Tab 2 content -->
+          <ion-nav-view name="legal"></ion-nav-view>
+      </ion-tab>
+  </ion-tabs>
+</ion-view>

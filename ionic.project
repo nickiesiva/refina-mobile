@@ -1,0 +1,14 @@
+{
+  "name": "refina",
+  "app_id": "8d3b6d04",
+  "gulpStartupTasks": [
+    "sass",
+    "templatecache",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ],
+  "documentRoot": "www"
+}

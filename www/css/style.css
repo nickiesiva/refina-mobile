@@ -1,0 +1,53 @@
+.button.button.button-block.button-primary.take-photo {
+    width: 340px;
+    margin: 0 auto;
+}
+
+.item.item-input.deskripsi {
+    width: 340px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.item.item-input.deskripsi.legal {
+    width: 340px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.submit-button {
+    width: 340px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.report-content {
+    margin-top: 80px;
+}
+
+.item.item-divider.report-title {
+    width: 340px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.pelanggaran {
+    width: 340px;
+    margin: 0 auto;
+}
+
+.logo-app {
+    color: #FFFFFF;
+}
+
+.bar.app-top-bar {
+    background-color: #1abb9c;
+}
+
+.done-content{
+    width: 340px;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+}
+

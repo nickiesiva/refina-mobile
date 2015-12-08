@@ -1,0 +1,33 @@
+<ion-view class="ilegal-view">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-nav-title>
+    <span>Lapor</span>
+  </ion-nav-title>
+  <ion-content>
+    <div class="report-content">
+        <button ng-click="getPhoto()" class="button button-block button-primary take-photo"><i class="icon ion-camera"></i>&nbsp;&nbsp;Ambil Foto</button>
+        <img ng-src="{{lastPhoto}}" style="width: 100%">  
+        <label class="item item-input deskripsi">
+            <textarea placeholder="Deskripsi tambahan"></textarea>
+        </label>
+        <div class="submit-button">
+            <button class="button button-block button-positive" ng-click="done()">
+                Submit
+            </button>
+        </div>
+    </div>
+  </ion-content>
+  <ion-tabs>
+      <ion-tab title="Lapor Parkir Ilegal" ui-sref="app.ilegal">
+          <!-- Tab 1 content -->
+          <!-- <ion&#45;nav&#45;view name="lapor&#45;ilegal"></ion&#45;nav&#45;view> -->
+      </ion-tab>
+
+      <!-- <ion&#45;tab title="Lapor Parkir Legal" ui&#45;sref="app.legal"> -->
+      <!--     <!&#45;&#45; Tab 2 content &#45;&#45;> -->
+      <!--     <!&#45;&#45; <ion&#38;#45;nav&#38;#45;view name="lapor&#38;#45;legal"></ion&#38;#45;nav&#38;#45;view> &#45;&#45;> -->
+      <!-- </ion&#45;tab> -->
+  </ion-tabs>
+</ion-view>
